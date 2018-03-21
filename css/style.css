@@ -74,14 +74,56 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  padding: 3rem;
 }
 
 .container main .box-content {
   width: 100%;
   min-height: 100vh;
+  padding: 3rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-start;
+}
+
+main div:first-child h1 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 6rem;
+  line-height: 5.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  margin: 0;
+}
+
+main div:first-child span {
+  color: #bd5d38;
+}
+
+main div:first-child p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #868e96;
+  margin: 0 0 3rem;
+}
+
+main div:first-child .personal-info {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #868e96;
+}
+
+main div:first-child .social-link {
+  color: #495057;
+  text-decoration: none;
+}
+
+main div:first-child .social-link:hover {
+  color: #bd5d38;
+}
+
+main div:first-child i {
+  margin: 0 10px 0 0;
 }

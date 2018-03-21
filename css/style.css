@@ -15,10 +15,8 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-flow: row nowrap;
-  height: 100%;
-  overflow: hidden;
+  width: 100%;
+  height: auto;
 }
 
 .container aside {
@@ -29,10 +27,9 @@ body {
   width: 17rem;
   height: 100%;
   background-color: #bd5d38;
-  flex-flow: column nowrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
 }
 
 .container aside img {
@@ -74,8 +71,17 @@ body {
 }
 
 .container main {
-  display: flex;
   width: 100%;
-  background-color: #fff;
+  height: auto;
+  display: block;
+  padding: 3rem;
+}
+
+.container main .box-content {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
 }

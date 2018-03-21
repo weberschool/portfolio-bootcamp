@@ -10,6 +10,10 @@ body, html {
   font-family: 'Open Sans',serif;
 }
 
+body {
+  padding-left: 17rem;
+}
+
 .container {
   display: flex;
   flex-flow: row nowrap;
@@ -18,9 +22,11 @@ body, html {
 }
 
 .container aside {
+  position: fixed;
+  left: 0;
+  top: 0;
   display: flex;
-  flex: 15%;
-  max-width: 15%;
+  width: 17rem;
   height: 100%;
   background-color: #bd5d38;
   flex-flow: column nowrap;
@@ -33,6 +39,7 @@ body, html {
   height: 160px;
   border-radius: 100%;
   border: .5rem solid rgba(255,255,255,.2);
+  margin-bottom: 20px;
 }
 
 .container aside ul {
@@ -42,6 +49,7 @@ body, html {
   flex-flow: column nowrap;
   justify-content: space-around;
   padding: 0;
+  margin: 0;
 }
 
 .container aside ul li {
@@ -66,8 +74,8 @@ body, html {
 }
 
 .container main {
-  flex: 85%;
-  max-width: 85%;
+  display: flex;
+  width: 100%;
   background-color: #fff;
   flex-flow: column nowrap;
 }

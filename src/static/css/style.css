@@ -17,6 +17,7 @@ body {
   padding-left: 17rem;
 }
 
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 @media (max-width: 768px) {
   body {
     padding: 0;
@@ -24,11 +25,13 @@ body {
 }
 
 header {
+  /* https://www.w3schools.com/cssref/pr_class_position.asp */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
+  /* https://www.w3schools.com/css/css3_flexbox.asp */
   display: flex;
   flex-flow: row wrap;
   background-color: #bd5d38;
@@ -98,7 +101,6 @@ header i {
   position: fixed;
   left: 0;
   top: 0;
-  /* https://www.w3schools.com/css/css3_flexbox.asp */
   display: flex;
   /* https://www.w3schools.com/cssref/css_units.asp */
   width: 17rem;

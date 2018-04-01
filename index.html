@@ -17,30 +17,29 @@
     <h3>Weber School</h3>
     <i class="fas fa-bars fa-2x"></i>
     <nav>
-      <a class="nav-item">Sobre</a>
-      <a class="nav-item">Experiências</a>
-      <a class="nav-item">Formação Acadêmica</a>
-      <a class="nav-item">Habilidades</a>
-      <a class="nav-item">Interesses</a>
-      <a class="nav-item">Prêmios</a>
+      <a class="nav-item" href="#sobre">Sobre</a>
+      <a class="nav-item" href="#experiencias">Experiências</a>
+      <a class="nav-item" href="#formacao">Formação Acadêmica</a>
+      <a class="nav-item" href="#habilidades">Habilidades</a>
+      <a class="nav-item" href="#interesse">Interesses</a>
+      <a class="nav-item" href="#premios">Prêmios</a>
     </nav>
   </header>
   <div class="container">
-    <!-- https://www.w3schools.com/tags/tag_aside.asp -->
-    <aside>
+    <div class="sidebar">
       <!-- https://www.w3schools.com/tags/att_img_alt.asp -->
       <img src="src/static/img/profile.jpg" alt="{Seu nome} - Foto de Perfil">
-      <section class="nav-item active-link">Sobre</section>
-      <section class="nav-item">Experiências</section>
-      <section class="nav-item">Formação Acadêmica</section>
-      <section class="nav-item">Habilidades</section>
-      <section class="nav-item">Interesses</section>
-      <section class="nav-item">Prêmios</section>
-    </aside>
+      <a href="#sobre" class="nav-item active-link">Sobre</a>
+      <a href="#experiencias" class="nav-item">Experiências</a>
+      <a href="#formacao" class="nav-item">Formação Acadêmica</a>
+      <a href="#habilidades" class="nav-item">Habilidades</a>
+      <a href="#interesse" class="nav-item">Interesses</a>
+      <a href="#premios" class="nav-item">Prêmios</a>
+    </div>
     <main>
-      <div class="box-content">
+      <div class="box-content" id="sobre">
         <h1>Weber <span>School</span></h1>
-        <p class="personal-info">Av. Tancredo Neves · Ed. Suarez Trade · (71) 9 9999-9999 · <span>contato@weberschool.com.br</span></p>
+        <p class="personal-info"><span class="email"></span></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae possimus eius qui alias, non soluta et accusamus id cupiditate iste nobis sunt mollitia fugit accusantium asperiores consequuntur officiis nisi facere!</p>
         <div>
           <a href="" class="social-link"><i class="fab fa-3x fa-facebook-square"></i></a>
@@ -49,13 +48,14 @@
           <a href="" class="social-link"><i class="fab fa-3x fa-github-square"></i></a>
         </div>
       </div>
-      <div class="box-content">Weber School</div>
-      <div class="box-content">Weber School</div>
-      <div class="box-content">Weber School</div>
-      <div class="box-content">Weber School</div>
-      <div class="box-content">Weber School</div>
+      <div class="box-content" id="experiencias">Weber School 1</div>
+      <div class="box-content" id="formacao">Weber School 2</div>
+      <div class="box-content" id="habilidades">Weber School 3</div>
+      <div class="box-content" id="interesse">Weber School 4</div>
+      <div class="box-content" id="premios">Weber School 5</div>
     </main>
   </div>
   <script src="src/static/js/menu.js" charset="utf-8"></script>
+  <script src="src/static/js/content.js" charset="utf-8"></script>
 </body>
 </html>

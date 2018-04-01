@@ -97,7 +97,7 @@ header i {
   }
 }
 
-.container aside {
+.container .sidebar {
   position: fixed;
   left: 0;
   top: 0;
@@ -111,13 +111,17 @@ header i {
   align-items: center;
 }
 
+.container .sidebar a {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
-  .container aside {
+  .container .sidebar {
     display: none;
   }
 }
 
-.container aside img {
+.container .sidebar img {
   height: 160px;
   /* https://www.w3schools.com/css/css_border.asp */
   border-radius: 100%;
@@ -125,7 +129,7 @@ header i {
   margin-bottom: 20px;
 }
 
-.container aside section {
+.container .sidebar a {
   width: 100%;
   height: 40px;
   display: flex;
@@ -142,7 +146,7 @@ header i {
 }
 
 /* https://www.w3schools.com/cssref/sel_hover.asp */
-.container aside section:hover {
+.container .sidebar a:hover {
   color: rgba(255,255,255,.75);
 }
 
